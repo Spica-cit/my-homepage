@@ -15,7 +15,7 @@ body {
 
   header a {
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
   }
   
   header a:hover {
@@ -45,6 +45,24 @@ body {
     max-width: 800px;
     margin: 2rem auto;
     padding: 0 1rem;
+  }
+
+  .introduction{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .text{
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  .photo img{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
   }
   
   footer {
