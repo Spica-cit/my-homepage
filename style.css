@@ -11,16 +11,16 @@ header {
   color: white;
   padding: 2rem;
   text-align: center;
+  font-style: italic;
 }
 
 header a {
   color: white;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 header a:hover {
-  text-decoration: underline;
-  color: #ccc;
+  color: #1abc9c;
 }
 
 nav {
@@ -44,6 +44,7 @@ main {
   max-width: 800px;
   margin: 2rem auto;
   padding: 0 1rem;
+  font-style: italic;
 }
 
 img {
@@ -100,6 +101,11 @@ footer {
 }
 
 ul {
+  padding-left: 1.2rem;
+  padding-bottom: 10px;
+}
+
+li {
   padding-left: 1.2rem;
 }
 
